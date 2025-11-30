@@ -1,0 +1,4 @@
+name: transformacao_matricula # Nome do projeto DBT
+version: '1.0'
+
+profile: transformacao_matricula # Nome do perfil de conexão ao banco de dados

@@ -1,0 +1,86 @@
+[0m23:14:40.799094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757fd1f50fb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757fd1bee600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757fd1f51100>]}
+
+
+============================== 23:14:40.802866 | 050f4808-1c86-4413-807c-4a93066d2698 ==============================
+[0m23:14:40.802866 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:14:40.803382 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'target_path': 'None', 'write_json': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'profiles_dir': '/home/murilo/.dbt', 'debug': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'log_format': 'default', 'printer_width': '80', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'static_parser': 'True', 'empty': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run'}
+[0m23:14:40.803868 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/murilo/UFPE/BD/Grupo7-BancoDeDados/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:14:40.805037 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.050776374, "process_in_blocks": "4744", "process_kernel_time": 0.242953, "process_mem_max_rss": "99204", "process_out_blocks": "16", "process_user_time": 1.100789}
+[0m23:14:40.805513 [debug] [MainThread]: Command `dbt run` failed at 23:14:40.805439 after 0.05 seconds
+[0m23:14:40.805890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757fd0eef9e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757fd14052e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x757fd369ba40>]}
+[0m23:14:40.806274 [debug] [MainThread]: Flushing usage events
+[0m23:14:41.607385 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:15:04.830972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf917721010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf91708e870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf9176a2cf0>]}
+
+
+============================== 23:15:04.833938 | 3aaf9613-2e04-41a4-a799-d1b2e07fe7b1 ==============================
+[0m23:15:04.833938 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:15:04.834502 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'write_json': 'True', 'no_print': 'None', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/home/murilo/UFPE/BD/Grupo7-BancoDeDados/logs', 'partial_parse': 'True', 'introspect': 'True', 'log_format': 'default', 'empty': 'False', 'log_cache_events': 'False', 'version_check': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'debug': 'False', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'static_parser': 'True', 'profiles_dir': '/home/murilo/.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'fail_fast': 'False'}
+[0m23:15:04.836726 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'transformacao_matricula'
+[0m23:15:04.837792 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.051900674, "process_in_blocks": "0", "process_kernel_time": 0.173532, "process_mem_max_rss": "99144", "process_out_blocks": "0", "process_user_time": 1.086076}
+[0m23:15:04.838353 [debug] [MainThread]: Command `dbt run` failed at 23:15:04.838274 after 0.05 seconds
+[0m23:15:04.838755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf916ead160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf918af8620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cf916cbfb90>]}
+[0m23:15:04.839249 [debug] [MainThread]: Flushing usage events
+[0m23:15:05.298530 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:18:14.954946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ff143dcc20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ff13e273b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ff15980680>]}
+
+
+============================== 23:18:14.958733 | aaea608f-59bc-42e2-9c13-42f5f9282c94 ==============================
+[0m23:18:14.958733 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:18:14.959366 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run', 'introspect': 'True', 'printer_width': '80', 'log_cache_events': 'False', 'partial_parse': 'True', 'log_path': '/home/murilo/UFPE/BD/Grupo7-BancoDeDados/logs', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'target_path': 'None', 'profiles_dir': '/home/murilo/.dbt', 'fail_fast': 'False', 'static_parser': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'empty': 'False', 'indirect_selection': 'eager', 'log_format': 'default'}
+[0m23:18:14.961588 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'transformacao_matricula'
+[0m23:18:14.962675 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.053001545, "process_in_blocks": "0", "process_kernel_time": 0.198511, "process_mem_max_rss": "99108", "process_out_blocks": "8", "process_user_time": 1.06139}
+[0m23:18:14.963248 [debug] [MainThread]: Command `dbt run` failed at 23:18:14.963166 after 0.05 seconds
+[0m23:18:14.963614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ff12e17b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ff131855e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ff12e48e30>]}
+[0m23:18:14.964010 [debug] [MainThread]: Flushing usage events
+[0m23:18:15.515691 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:18:40.619368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0db8f89010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0db916ab40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0db8be2c30>]}
+
+
+============================== 23:18:40.622710 | 1efff515-f07e-402e-a98b-331367db6110 ==============================
+[0m23:18:40.622710 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:18:40.623246 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'profiles_dir': '/home/murilo/.dbt', 'fail_fast': 'False', 'introspect': 'True', 'indirect_selection': 'eager', 'empty': 'False', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'static_parser': 'True', 'write_json': 'True', 'log_path': '/home/murilo/UFPE/BD/Grupo7-BancoDeDados/logs', 'partial_parse': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'printer_width': '80', 'version_check': 'True'}
+[0m23:18:40.625409 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'transformacao_matricula'
+[0m23:18:40.626550 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.05185267, "process_in_blocks": "0", "process_kernel_time": 0.18305, "process_mem_max_rss": "99092", "process_out_blocks": "8", "process_user_time": 1.056518}
+[0m23:18:40.627074 [debug] [MainThread]: Command `dbt run` failed at 23:18:40.626997 after 0.05 seconds
+[0m23:18:40.627439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0db7f277a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0db86d8200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b0db8326e40>]}
+[0m23:18:40.627820 [debug] [MainThread]: Flushing usage events
+[0m23:18:41.081915 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:19:11.027223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767b29a30ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767b29860e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767b291271a0>]}
+
+
+============================== 23:19:11.030276 | e80fed02-a8be-40f3-950f-25da1cccfd48 ==============================
+[0m23:19:11.030276 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:19:11.030795 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'version_check': 'True', 'log_format': 'default', 'log_cache_events': 'False', 'target_path': 'None', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'static_parser': 'True', 'fail_fast': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'printer_width': '80', 'debug': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'profiles_dir': '/home/murilo/.dbt', 'no_print': 'None', 'write_json': 'True', 'log_path': '/home/murilo/UFPE/BD/Grupo7-BancoDeDados/logs', 'quiet': 'False'}
+[0m23:19:11.032899 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'transformacao_matricula'
+[0m23:19:11.033799 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.05098707, "process_in_blocks": "0", "process_kernel_time": 0.189721, "process_mem_max_rss": "99080", "process_out_blocks": "8", "process_user_time": 1.065119}
+[0m23:19:11.034291 [debug] [MainThread]: Command `dbt run` failed at 23:19:11.034216 after 0.05 seconds
+[0m23:19:11.034652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767b2cf74200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767b28dbf4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767b28fcfec0>]}
+[0m23:19:11.035043 [debug] [MainThread]: Flushing usage events
+[0m23:19:11.491226 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:20:21.653178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7627406dc860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x762741d39340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76273fb21100>]}
+
+
+============================== 23:20:21.656993 | a91fbe4a-db53-4222-842d-8e4f1cf0b889 ==============================
+[0m23:20:21.656993 [info ] [MainThread]: Running with dbt=1.10.15
+[0m23:20:21.657613 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'log_path': '/home/murilo/UFPE/BD/Grupo7-BancoDeDados/logs', 'use_experimental_parser': 'False', 'static_parser': 'True', 'invocation_command': 'dbt run', 'fail_fast': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'log_format': 'default', 'version_check': 'True', 'write_json': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'profiles_dir': '/home/murilo/.dbt', 'target_path': 'None', 'debug': 'False', 'warn_error': 'None'}
+[0m23:20:21.708196 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "transformacao_matricula", target "transformacao_matricula_db" invalid: 'schema' is a required property
+[0m23:20:21.709306 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.0998737, "process_in_blocks": "576", "process_kernel_time": 0.187678, "process_mem_max_rss": "103664", "process_out_blocks": "8", "process_user_time": 1.110098}
+[0m23:20:21.709817 [debug] [MainThread]: Command `dbt run` failed at 23:20:21.709736 after 0.10 seconds
+[0m23:20:21.710219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76273f64a090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76273f648e30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76273f617aa0>]}
+[0m23:20:21.710629 [debug] [MainThread]: Flushing usage events
+[0m23:20:22.248730 [debug] [MainThread]: An error was encountered while trying to flush usage events
